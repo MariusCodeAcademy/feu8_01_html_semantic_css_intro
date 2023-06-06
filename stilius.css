@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.mainHeader {
+  background-color: tomato;
+}
+
+.navItem {
+  /* background-color: tomato; */
+  text-decoration: none;
+  color: white;
+  padding: 8px 14px;
+  display: inline-block;
+}
+
+/* taisykles busenai kai uzvedam pelyte */
+.navItem:hover {
+  background-color: white;
+  color: black;
+}
